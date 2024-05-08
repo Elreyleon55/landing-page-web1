@@ -1,0 +1,325 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN ANOTHER FILE)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+
+
+
+body {
+  font-family: 'Playfair display' 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  max-width: 350.4px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: .5em 0;
+}
+
+h1{
+  font-size: 2.5rem;
+
+}
+
+h2{
+  font-size: 1.75rem;
+}
+
+p{
+  margin: 0 0 1.5em;
+}
+
+
+/* Elements
+--------------------------------------------- */
+section {
+  padding: 0 1rem;
+}
+
+
+button {
+  background-color: transparent;
+  padding: 0.2rem;
+}
+
+nav ul {
+  background-color: #FFDB58;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  left: 11rem;
+	right: 0rem;
+  top: 51px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  border: #b22e2e;
+  border-width: thick;
+  border-radius: 0.5rem;
+  max-width: fit-content;
+  
+  
+}
+
+ol {
+	
+}
+
+dl {
+	
+}
+
+figure {
+	
+}
+
+table {
+	
+}
+
+/* Links
+--------------------------------------------- */
+a,
+a:visited {
+  
+}
+a {
+  background-color: transparent;
+}
+
+a li:hover {
+	color: rgb(0, 0, 0);
+}
+
+a:focus {
+	color: rgb(226, 151, 21);
+}
+
+a:active {
+	color: #2c2921;
+}
+
+
+.aboutme-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: large;
+  
+}
+
+.myworks-link {
+  font-size: large;
+  color: #000000;
+  text-decoration: none;
+
+}
+.myworks-link.hover {
+  color: #2c2921;
+}
+
+
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+
+.menu-toggle {
+  background-color: transparent;
+  color: white;
+  max-width: 3rem;
+  max-height: 2.5rem;
+  padding-right: 1rem;
+  border: none;
+}
+.logo-image {
+  width: 4rem;
+  height: 4rem;
+  order: -1;
+}
+
+button {
+  border: none;
+  padding-right: 5px
+  
+}
+
+.main-button {
+  padding-right: 2rem;
+}
+
+
+
+
+/* Header
+--------------------------------------------- */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFDB58;
+  color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.95;
+
+}
+
+
+/* Navigation */
+
+
+#main-nav-list{
+  display: none;
+  
+}
+
+#main-nav-list.toggled {
+  display: block;
+
+}
+
+
+/* Main
+--------------------------------------------- */
+
+.site-main {
+  padding: 6rem 1rem 2rem 1rem;
+  max-width: 350.4px;
+  margin: 0 auto;
+
+  
+}
+
+/* ****** Hero ********/
+h1 {
+  text-align: center;
+  color: #FFDB58;
+  text-shadow: 3px 3px #b22e2e;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  line-height: 1.5;
+  border: solid darkgoldenrod;
+  border-radius: 1rem;
+  padding: 0;
+  
+
+}
+
+.self-potrait {
+  display: block;
+}
+
+
+
+.paragraphMove {
+  padding-top: 4rem;
+  font-size: large;
+  text-align: center;
+  color: #FFDB58;
+  font-weight: bold;
+}
+
+.site-myworks {
+  padding-top: 3rem;
+  
+}
+
+.site-main {
+  background-color: #FFDB58;
+  background-color: #000000;
+  
+}
+/* about me section */
+.site-aboutme {
+  background-color: #b22e2e;
+  width: 100%;
+  margin-top: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.h2-about-me {
+ 
+  margin-bottom: 2rem;
+}
+
+.aboutme-section h3 p {
+  
+}
+
+
+/* @media (min-wi */
+
+
+/* Works section */
+.h2-myworks {
+  text-align: center;
+  margin-top: 5rem;
+  
+}
+
+
+
+.myworks-1 article img {
+  box-shadow: 4px 4px 10px 10px rgb(255, 255, 196);
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+article {
+  margin-top: 3.5rem;
+}
+
+figcaption {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #FFDB58;
+  color: black;
+  border-radius: 45rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  
+}
+
+
+
+
+
+
+/* Footer
+--------------------------------------------- */
+
