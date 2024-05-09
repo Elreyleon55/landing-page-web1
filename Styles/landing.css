@@ -140,6 +140,12 @@ a:active {
   color: #2c2921;
 }
 
+.mycontact-link {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+
 
 
 /*--------------------------------------------------------------
@@ -218,6 +224,8 @@ button {
   padding: 6rem 1rem 2rem 1rem;
   max-width: 350.4px;
   margin: 0 auto;
+  background-color: #FFDB58;
+  background-color: #000000;
 
   
 }
@@ -233,17 +241,13 @@ h1 {
   border: solid darkgoldenrod;
   border-radius: 1rem;
   padding: 0;
-  
-
 }
 
 .self-potrait {
   display: block;
 }
 
-
-
-.paragraphMove {
+.main-quote {
   padding-top: 4rem;
   font-size: large;
   text-align: center;
@@ -256,12 +260,12 @@ h1 {
   
 }
 
-.site-main {
-  background-color: #FFDB58;
-  background-color: #000000;
-  
-}
+
+
+
 /* about me section */
+
+
 .site-aboutme {
   background-color: #b22e2e;
   width: 100%;
@@ -275,10 +279,6 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.aboutme-section h3 p {
-  
-}
-
 
 /* @media (min-wi */
 
@@ -289,8 +289,6 @@ h1 {
   margin-top: 5rem;
   
 }
-
-
 
 .myworks-1 article img {
   box-shadow: 4px 4px 10px 10px rgb(255, 255, 196);
@@ -323,3 +321,30 @@ figcaption {
 /* Footer
 --------------------------------------------- */
 
+footer {
+  margin-top: 5rem;
+  text-align: center;
+  border-top: 6px solid #b22e2e;
+  color: #FFDB58;
+}
+
+footer h2 {
+  padding-top: 5rem;
+}
+.email-link {
+  color: #FFDB58;
+  text-decoration: none;
+  background-color: #b22e2e;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 3rem;
+  
+}
+.h3-footer {
+ margin-bottom: 1.5rem;
+}
+
+.copywrite {
+  padding-bottom: 7rem;
+  padding-top: 2rem;
+  
+}
