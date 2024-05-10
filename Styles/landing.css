@@ -62,9 +62,7 @@ p{
 }
 @media (min-width: 88em) {
   body {
-    display: flex;
     max-width: 1407px;
-    
   }
 }
 
@@ -119,6 +117,15 @@ table {
    nav ul {
     left: 30.5rem;
    }
+}
+
+@media (min-width: 88em) {
+  nav ul {
+    max-width: 100%;
+    left: 70rem;
+    
+    
+  }
 }
 
 /* Links
@@ -181,6 +188,20 @@ color: #000000;
 
 }
 
+@media (min-width: 88em) {
+  .aboutme-link {
+    font-size: 2.5rem;
+  }
+  
+  .myworks-link {
+    font-size: 2.5rem;
+  }
+  
+  .mycontact-link {
+    font-size: 2.5rem;
+  }
+}
+  
 
 
 /*--------------------------------------------------------------
@@ -203,8 +224,8 @@ color: #000000;
   border: none;
 }
 .logo-image {
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
   order: -1;
 }
 
@@ -218,6 +239,20 @@ button {
   padding-right: 2rem;
 }
 
+@media (min-width: 88em) {
+  .self-potrait{
+    width: 40rem;
+  }
+  .logo-image {
+    width: 10rem;
+    height: 6rem;
+  }
+.main-botton {
+  height: 4rem;
+  width: 4rem;
+}
+
+}
 
 
 
@@ -237,6 +272,15 @@ button {
 
 }
 
+@media (min-width: 88em) {
+  .landing-header {
+    font-size: 2.5rem
+  }
+
+} 
+
+
+
 
 /* Navigation */
 
@@ -251,9 +295,7 @@ button {
 
 }
 
-@media (min-width: 40.7em) {
-  
-}
+
 
 /* Main
 --------------------------------------------- */
@@ -303,8 +345,6 @@ h1 {
   h1 {
     align-items: center;
     letter-spacing: 15px;
-    
-    
   }
 
   .site-main {
@@ -316,6 +356,22 @@ h1 {
   }
 
 }
+@media (min-width: 88em) {
+
+  .main-header{
+   display: flex; 
+   margin-top: 3rem;
+  }
+
+  h1 {
+   align-self: center;
+   font-size: 3rem;
+   padding-left: 16px;
+
+  }
+
+}
+
 
 
 
@@ -347,6 +403,26 @@ h1 {
     font-size: 2rem;
   }
 }
+
+@media (min-width: 88em) {
+
+  .site-aboutme {
+    color: #ffffff;
+  }
+
+  .Img-smile {
+    width: 40rem
+  }
+
+  .site-aboutme {
+    margin-bottom: 7rem;
+  }
+
+  
+
+}
+
+
 /* @media (min-wi */
 
 
@@ -388,6 +464,32 @@ figcaption {
     font-size: 2.5rem;
     margin-top: 1rem;
   }
+
+}
+
+@media (min-width: 88em) {
+
+  .myworks-1 {
+  }
+
+    .article-images {
+      display: grid;
+      grid-template-columns: auto auto auto;
+
+    }
+    
+    .article-images img {
+      height: 366px;
+      width: 366px;
+      
+    }
+
+    figcaption {
+      width:27rem
+
+    }
+
+
 
 }
 
@@ -441,22 +543,7 @@ footer h2 {
 
 }
 
-@media (min-width: 88em) {
-  footer {
-  align-self: self-start;
-  z-index: 50;
-  position: sticky;
 
-}
-.site-footer {
-  margin-top: 0;
-  position: sticky;
-}
-
-
-
-
-}
 
 
 
