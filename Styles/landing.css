@@ -32,7 +32,7 @@ body {
   line-height: 1.5;
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
-  max-width: 350.4px;
+  /* max-width: 350.4px; */
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -54,15 +54,15 @@ p{
 }
 
 @media (min-width: 40.7em) {
-  body {
+  /* body {
   max-width: 661px;
 
   }
-    
+     */
 }
 @media (min-width: 88em) {
   body {
-    max-width: 1407px;
+    /* max-width: 1407px; */
   }
 }
 
@@ -302,7 +302,7 @@ button {
 
 .site-main {
   padding: 6rem 1rem 2rem 1rem;
-  max-width: 350.4px;
+  /* max-width: 350.4px; */
   margin: 0 auto;
   background-color: #FFDB58;
   background-color: #000000;
@@ -488,10 +488,23 @@ figcaption {
       width:27rem
 
     }
-
-
-
 }
+
+@media (min-width: 120em) {
+  /* .article-images{
+    text-align: center;
+  } */
+
+  /* .article-images figcaption a {
+    text-align: center;
+  }
+   */
+
+   .article-images figcaption {
+    text-align: center;
+   }
+}
+
 
 
 
