@@ -53,27 +53,11 @@ p{
   margin: 0 0 1.5em;
 }
 
-@media (min-width: 40.7em) {
-  /* body {
-  max-width: 661px;
-
-  }
-     */
-}
-@media (min-width: 88em) {
-  body {
-    /* max-width: 1407px; */
-  }
-}
-
-
-
 /* Elements
 --------------------------------------------- */
 section {
   padding: 0 1rem;
 }
-
 
 button {
   background-color: transparent;
@@ -184,10 +168,6 @@ figcaption a:visited{
 color: #000000;
 }
 
-@media (min-width: 40.7em){
-
-}
-
 @media (min-width: 88em) {
   .aboutme-link {
     font-size: 2.5rem;
@@ -251,7 +231,21 @@ button {
   height: 4rem;
   width: 4rem;
 }
+}
+@media (min-width: 62em){
+  .self-potrait {
+    width: 25rem;
+  }
 
+}
+
+@media (min-width: 22em){
+  .self-potrait {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
 }
 
 
@@ -279,9 +273,6 @@ button {
 
 } 
 
-
-
-
 /* Navigation */
 
 
@@ -302,7 +293,6 @@ button {
 
 .site-main {
   padding: 6rem 1rem 2rem 1rem;
-  /* max-width: 350.4px; */
   margin: 0 auto;
   background-color: #FFDB58;
   background-color: #000000;
@@ -372,11 +362,7 @@ h1 {
 
 }
 
-
-
-
 /* about me section */
-
 
 .site-aboutme {
   background-color: #b22e2e;
@@ -417,8 +403,23 @@ h1 {
   .site-aboutme {
     margin-bottom: 7rem;
   }
+}
 
-  
+@media (min-width: 22em){
+  .Img-smile {
+    width: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 62em){
+.Img-smile {
+  width: 25rem;
+  margin-left: 0;
+
+}
 
 }
 
@@ -455,7 +456,6 @@ figcaption {
   padding-bottom: 0.2rem;
 }
 @media (min-width: 40.7rem){
-
   .h2-myworks {
   font-size: 4rem;
   }
@@ -463,14 +463,42 @@ figcaption {
   figcaption {
     font-size: 2.5rem;
     margin-top: 1rem;
+    width: 200px;
+    margin: 0 auto;
+    
   }
+  .article-images {
+  
+    max-width: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+  }
+
+  .article-images img {
+    height: 233px;
+    width: 233px;
+  }
+
 
 }
+@media (min-width: 22em){
+  .article-images {
+   align-self: center;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+  }
+figcaption {
+  font-size: 1rem;
+ 
+}
+}
+
+
 
 @media (min-width: 88em) {
-
-  .myworks-1 {
-  }
 
     .article-images {
       display: grid;
@@ -491,25 +519,23 @@ figcaption {
 }
 
 @media (min-width: 120em) {
-  /* .article-images{
-    text-align: center;
-  } */
-
-  /* .article-images figcaption a {
-    text-align: center;
-  }
-   */
-
+  
    .article-images figcaption {
     text-align: center;
    }
 }
 
+@media (min-width: 62em){
+  figcaption{
+   font-size: 2rem;
+  
+  }
+.article-images img {
+  height: 400px;
+  width: 400px;
+}
 
-
-
-
-
+}
 
 
 /* Footer
